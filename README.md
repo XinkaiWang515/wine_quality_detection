@@ -16,7 +16,7 @@ The problem is important because it is a multiclass badly imbalanced problem wit
 
 
 
-**Overview of approaches: **
+**Overview of approaches:**
 
 I used multinomial logistic regression, random forest, adaboost algorithm and xgboost.
 
@@ -24,12 +24,11 @@ steps
   - Initially, splitting data into train, validation and test groups with ratio of 6:2:2. 
     - Then recursive feature elimination (RFE) and extra tree classifier were used to select features. 
       - Next, for each method, cross validation was applied to training data to select parameters. What should be mentioned is that instead normal accuracy score, I used balanced accuracy score as evaluation rule. I used validation data to choose best selected features among the best 8, 9, 10 and all features, and compared outcome of RFE with that of extra tree classifier.
-      
         - Finally, compare the outcome of test data to see which model works best.
 
 
 
-**Summary of this project: **
+**Summary of this project:**
 
 For some badly imbalanced problem, especially without large amount of data, it is hard to obtain a high-quality model. In practice, ignoring those minority classes improves model significantly or merging minority class with majority class to make data more balanced. 
 
