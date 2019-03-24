@@ -1,6 +1,6 @@
 # wine_quality_detection
 
-Introduction:
+**Introduction:**
 
 The project is a multiclass classification problem to classify quality of wine. 
 The data includes red wine and white wine. 
@@ -16,7 +16,7 @@ The problem is important because it is a multiclass badly imbalanced problem wit
 
 
 
-Overview of approaches:
+**Overview of approaches:**
 
 I used multinomial logistic regression, random forest, adaboost algorithm and xgboost.
 
@@ -28,7 +28,7 @@ Finally, compare the outcome of test data to see which model works best.
 
 
 
-Summary of this project: 
+**Summary of this project: 
 
 For some badly imbalanced problem, especially without large amount of data, it is hard to obtain a high-quality model. In practice, ignoring those minority classes improves model significantly or merging minority class with majority class to make data more balanced. 
 
